@@ -20,8 +20,8 @@ html {
 body {
   background: radial-gradient(
       circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
+      rgba(60, 32, 218, 0.98),
+      rgba(41, 141, 223, 0.87)
     ),
     url('bg-pattern-dark.png');
   background-repeat: repeat;
@@ -44,7 +44,7 @@ h1 {
   font-family: 'Caprasimo', cursive;
   font-size: 3rem;
   margin: 0 auto 3rem auto;
-  color: #3f3b00;
+  color: #73e098;
 }
 
 #game-container {
@@ -75,20 +75,20 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #73e098;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: #73e098;
 }
 
 #players button {
   width: 3rem;
   border: none;
   background: none;
-  color: #c3ba78;
+  color: #73e098;
   font-size: 0.9rem;
   cursor: pointer;
   transition: color 0.2s;
@@ -208,7 +208,7 @@ ol {
   font-family: 'Caprasimo', cursive;
   font-size: 4rem;
   text-align: center;
-  color: #fcd256;
+  color: #73e098;
   margin: 0;
 }
 
@@ -223,8 +223,8 @@ ol {
   margin: 0 auto;
   font-size: 1.5rem;
   background: none;
-  border: 2px solid #fcd256;
-  color: #fcd256;
+  border: 2px solid #73e098;
+  color: #73e098;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -233,7 +233,7 @@ ol {
 }
 
 #game-over button:hover {
-  background: #fcd256;
+  background: #73e098;
   color: #3f3b00;
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
@@ -322,15 +322,15 @@ ol {
 
 @keyframes pulse {
   0% {
-    border-color: #f6e35a;
-    box-shadow: 0 0 0 0 rgba(246, 227, 90, 0.4);
+    border-color: #3c20dafa;
+    box-shadow: 0 0 0 0 rgba(101, 39, 247, 0.4);
   }
   50% {
-    border-color: #f8c031;
+    border-color: #5167e2;
     box-shadow: 0 0 0 0.5rem rgba(248, 165, 49, 0);
   }
   100% {
-    border-color: #f6e35a;
+    border-color: #4282e2;
     box-shadow: 0 0 0 0 rgba(246, 227, 90, 0);
   }
 }
